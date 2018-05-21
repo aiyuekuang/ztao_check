@@ -1,6 +1,6 @@
 {
   "name": "ztao_check",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "前端切图校验工具",
   "main": "dist/compenet/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/aiyuekuang/ztao_check.git"
   },
   "theme": {
     "primary-color": "#f60"
