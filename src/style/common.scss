@@ -1,0 +1,124 @@
+@import "rest";
+.ztao_warp{
+  width: 100%;
+  position: relative;
+  color: #000;
+  button{
+    padding:5px 10px ;
+    background: #1DA57A;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 2px;
+    &[disabled]{
+      background: #999;
+      cursor: not-allowed;
+    }
+  }
+}
+.ztao_caozuo{
+  position: fixed;
+  left: 0;
+  top:300px;
+  z-index: 8;
+  padding: 10px;
+  background: #fff;
+  border-radius: 0 4px 4px 0;
+  opacity: 0.9;
+  box-shadow: 1px 1px 10px #999;
+  >div{
+    border-bottom: 1px dotted #999;
+    padding: 10px 0;
+    &:last-child{
+      border-bottom:none;
+    }
+  }
+}
+.ztao_btn{
+  margin-top: 10px;
+  input{
+    vertical-align: middle;
+    &[type='checkbox']{
+      margin-right:2px ;
+      margin-left: 8px;
+    }
+  }
+}
+.ztao_img{
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  canvas{
+    width: 100%;
+  }
+}
+.ztao_shise{
+  cursor: crosshair;
+}
+.ztao_sekuai{
+  width: 20px;
+  height: 20px;
+  z-index: 5;
+  border: 1px dotted #999;
+}
+.ztao_caozuo_yanse{
+  >div{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  button{
+    margin-left: 5px;
+  }
+}
+.ztao_touming{
+  input{
+    vertical-align: middle;
+  }
+}
+.juzhong{
+  margin: 0 auto;
+  width: 1000px;
+}
+.ztao_yemian{
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+}
+.ztao_xianshi{
+  input{
+    vertical-align: middle;
+    margin-right:2px ;
+    margin-left: 8px;
+  }
+}
+.ztao_caozuo_guanbi{
+  position: absolute;
+  right: 4px;
+  top:4px;
+  padding: 0!important;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  border: 1px solid #999;
+  border-bottom:1px solid #999!important;
+  border-radius: 100px;
+}
+.ztao_caozuo_xiao{
+  position: fixed;
+  left: 0;
+  top:300px;
+  background: #1DA57A;
+  padding: 10px 10px 10px 4px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 9;
+  &:hover{
+    background: #0da53a;
+  }
+}
